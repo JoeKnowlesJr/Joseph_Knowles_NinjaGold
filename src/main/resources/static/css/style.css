@@ -1,0 +1,42 @@
+.container {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#gold {
+	background-color: gold;
+	position: relative;
+	width: 190px;
+	left: 33px;
+	top: 33px;
+	font-size: 25px;
+}
+
+#tablebox {
+	margin-top: 100px;
+}
+
+table {
+	border-spacing:25px;
+	text-align: center;
+}
+
+.place {
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.nobullet {
+    list-style-type: none;
+    width: 80%;
+    height: 200px;
+    scroll-behavior: auto;
+    overflow: scroll;
+    box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+}
+
+.green { color: green; }
+.red { color: red; }
+.blue { color: blue; }
