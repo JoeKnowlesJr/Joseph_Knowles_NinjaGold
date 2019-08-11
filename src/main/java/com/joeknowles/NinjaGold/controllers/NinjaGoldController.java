@@ -51,7 +51,7 @@ public class NinjaGoldController {
 
         final boolean inTheBlack = (random >= 0);
         final String log = String.format("You went to the %s and %s %d gold. (%s)", 
-        		location, inTheBlack ? "found" : "lost", random, timestamp);
+        		location, inTheBlack ? "found" : "lost", Math.abs(random), timestamp);
         
         ninja.adjustGold(random);
         ninja.addLogEntry(new LogEntry((inTheBlack ? "green" : "red"), log));
